@@ -12,14 +12,10 @@ module helix_footprint(helix_r=50
 	,arm_offset=1
 	,arm_rot=30
 	) {
-  union() {
-    translate([ -helix_r,0])
-      rotate([0,0,arm_rot]) translate([-arm_offset,0,0])
+	translate([ -helix_r,0])
+      rotate([0,0,arm_rot])
+	translate([-arm_offset,0,0])
 	circle(arm_r,0);
-    translate([ helix_r,0])
-      rotate([0,0,arm_rot]) translate([arm_offset,0,0])
-	circle(arm_r,0);
-  }
 }
 
 module helix_coil(helix_r=50
