@@ -23,8 +23,9 @@ module helix_coil(helix_r=50
 	, helix_h=100
 	,arm_offset=0
 	,arm_rot=0
+	, helix_twist=360.0
 	) {
-  linear_extrude(height=helix_h, convexity=10, twist=360.0)
+  linear_extrude(height=helix_h, convexity=10, twist=helix_twist)
 	helix_footprint(helix_r=helix_r
 		,arm_r=arm_r
 		,arm_offset=arm_offset
@@ -35,4 +36,5 @@ module helix_coil(helix_r=50
 helix_coil(helix_h=22
 	,arm_r=1.5
 	,helix_r=19
+	,helix_twist=720
 	);
