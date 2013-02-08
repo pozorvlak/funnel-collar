@@ -34,7 +34,7 @@ module helix_coil(helix_r=50
 }
 
 helix_coil(helix_h=22
-	,arm_r=1.5
+	,arm_r=1.45
 	,helix_r=19
-	,helix_twist=720
+	,helix_twist=1931
 	);
