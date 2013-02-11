@@ -20,3 +20,15 @@ Instructions
 8. Bask in the beauty of your newly-organised kitchen.
 
 You don't, of course, have to fill all N jugs at once. Start with two, and fill up more as you finish more milk jugs. 
+
+Licence
+-------
+
+This code is available under the terms of the Creative Commons Attribution 2.5
+UK: Scotland licence (CC BY 2.5 Scotland). You are free:
+
+ * to copy, distribute, display, and perform the work
+ * to make derivative works
+ * to make commercial use of the work 
+
+For full details, see the file LICENCE.
