@@ -31,4 +31,8 @@ UK: Scotland licence (CC BY 2.5 Scotland). You are free:
  * to make derivative works
  * to make commercial use of the work 
 
+under the following conditions:
+
+ * Attribution — You must give the original author credit. 
+
 For full details, see the file LICENCE.
