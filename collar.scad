@@ -3,10 +3,13 @@
 // do this.
 // Designed by Miles Gould, February 2013
 
+height = 22;   // Height of the collar.
+               // Should be a bit more than the height of two caps.
+
 // Outer collar
 difference() {
-	cylinder(h=22, r=21);
-	cylinder(h=22, r=19);
+	cylinder(h=height, r=21);
+	cylinder(h=height, r=19);
 }
 
 // Helix based on code by Andrew Plumb, 2010
@@ -30,7 +33,7 @@ module helix_coil(helix_r=50
 	);
 }
 
-helix_coil(helix_h=22
+helix_coil(helix_h=height
 	,arm_r=2
 	,helix_r=19
 	,helix_twist=-1931
