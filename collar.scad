@@ -3,10 +3,12 @@
 // do this.
 // Designed by Miles Gould, February 2013
 
+// Measurements, in millimetres.
 height = 22;   // Height of the collar.
                // Should be a bit more than the height of two caps.
 inner_r = 19;  // inner radius of the cylinder
 outer_r = 21;  // outer radius of the cylinder
+pitch = 4.1;   // distance between the crest of one thread and the next.
 
 // Outer collar
 difference() {
@@ -38,5 +40,5 @@ module helix_coil(helix_r=50
 helix_coil(helix_h=height
 	,arm_r=2
 	,helix_r=inner_r
-	,helix_twist=-1931
+	,helix_twist=-(height / pitch * 360)
 	);
