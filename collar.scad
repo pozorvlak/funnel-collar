@@ -1,3 +1,8 @@
+// This is a screw-on collar to attach two UK milk jugs neck-to-neck.
+// See http://pozorvlak.livejournal.com/150072.html for why you might want to
+// do this.
+// Designed by Miles Gould, February 2013
+
 // Outer collar
 difference() {
 	cylinder(h=22, r=21);
