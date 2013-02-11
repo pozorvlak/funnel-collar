@@ -5,11 +5,13 @@
 
 height = 22;   // Height of the collar.
                // Should be a bit more than the height of two caps.
+inner_r = 19;  // inner radius of the cylinder
+outer_r = 21;  // outer radius of the cylinder
 
 // Outer collar
 difference() {
-	cylinder(h=height, r=21);
-	cylinder(h=height, r=19);
+	cylinder(h=height, r=outer_r);
+	cylinder(h=height, r=inner_r);
 }
 
 // Helix based on code by Andrew Plumb, 2010
@@ -35,6 +37,6 @@ module helix_coil(helix_r=50
 
 helix_coil(helix_h=height
 	,arm_r=2
-	,helix_r=19
+	,helix_r=inner_r
 	,helix_twist=-1931
 	);
